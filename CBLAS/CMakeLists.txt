@@ -1,5 +1,5 @@
 message(STATUS "CBLAS enable")
-enable_language(C)
+enable_language(C Fortran)
 
 set(LAPACK_INSTALL_EXPORT_NAME cblas-targets)
 
